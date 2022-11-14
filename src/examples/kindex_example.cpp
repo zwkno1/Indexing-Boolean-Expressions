@@ -1,6 +1,8 @@
 #include <iostream>
 
-#include "indexer.h"
+#include <kindex.h>
+
+using namespace kindex;
 
 class Assignment
 {
@@ -8,17 +10,15 @@ public:
     template <typename TriggerFunc>
     void trigger(TriggerFunc&& t) const
     {
-        auto aa = &va;
-        t(ka, aa, aa + 1);
-        t(kb, vb.begin(), vb.end());
+        int va = 3;
+        std::vector<std::string> vb = { "x", "y", "z" };
+        
+        t("a", &va, &va + 1);
+        t("b", vb.begin(), vb.end());
     }
 
     size_t size() const { return 2; }
 
-    std::string ka = "a";
-    int va = 3;
-    std::string kb = "b";
-    std::vector<std::string> vb = { "x", "y", "z" };
 };
 
 int main(int argc, char* argv[])

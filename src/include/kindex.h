@@ -9,6 +9,8 @@
 #include <variant>
 #include <vector>
 
+namespace kindex {
+
 namespace detail {
 
 using EntryId = std::uint64_t;
@@ -377,3 +379,5 @@ private:
 
     std::vector<detail::Entry> z_;
 };
+
+} // namespace kindex
