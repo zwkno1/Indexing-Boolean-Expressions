@@ -4,11 +4,13 @@
 indexer list:
 
 1. k-index
+   
 01 August 2009
 Steven Euijong Whang, Hector Garcia-Molina, Chad Brower, Jayavel Shanmugasundaram, Sergei Vassilvitskii, Erik Vee, Ramana Yerneni
 Indexing Boolean expressions
 
 todos:
+
 12 June 2011
 Mohammad Sadoghi, Hans-Arno Jacobsen
 BE-tree: an index structure to efficiently match boolean expressions over high-dimensional discrete space
