@@ -4,19 +4,11 @@
 indexer list:
 
 1. k-index
-
-todos:
-1. OpIndex
-2. BE-Tree
-3. PS-Tree
-
-
-REFERENCES:
-
 01 August 2009
 Steven Euijong Whang, Hector Garcia-Molina, Chad Brower, Jayavel Shanmugasundaram, Sergei Vassilvitskii, Erik Vee, Ramana Yerneni
 Indexing Boolean expressions
 
+todos:
 12 June 2011
 Mohammad Sadoghi, Hans-Arno Jacobsen
 BE-tree: an index structure to efficiently match boolean expressions over high-dimensional discrete space
